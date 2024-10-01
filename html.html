@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #faf9f9;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 3%;
+ 
+}
+
+#myBtn:hover {
+  background:#C724B1;
+  visibility: 90%;
+  color: #fffefd;
+  
+}
+.text-1{
+  text-decoration: none; color: #000000
+}
+.text-1:hover{
+  text-decoration: none; color: #ffffff
+}
+</style>
+</head>
+<body>
+<video autoplay muted loop id="myVideo">Kutty Infotechs
+  <source src="./02cc10b89e9982046a82fc9fab5675c5.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<div class="content">
+  <h1 style="margin: top;">Kutty Infotechs</h1>
+  <p>Build Your Own PC with help of Kutty Infotechs.Improve Your Gaming Experence & Explorer Gaming World.
+    We Provide Also PC Build For Office Use. <br>We Provide System Service Also Pleace Check Our Website For exciting Offers..
+  </p>
+  <button id="myBtn" onclick="myFunction()"><a class="text-1" href="https://docs.google.com/forms/d/e/1FAIpQLSdViqOD3GcU_U-QxCpwP1biwssq2wAK1vba57DSw7Dlkvx1NA/viewform?usp=sf_link">Build Your Own PC</a></button>
+</div>
+</body>
+</html>
